@@ -47,7 +47,19 @@
                 </div>
                 <div class="container-fluid profile-page">
                     <div class="row">
-                        <div class="col-md-3"></div>
+                        <div class="col-md-3">
+                            <div id="profile-info" class="panel panel-default">
+                                <div class="profile-info-body panel-body">
+                                    <div class="profile-info-name">
+                                        {{ $user->first_name }}
+                                        {{ $user->last_name }}
+                                    </div>
+                                    <div class="profile-info-email">
+                                        {{ $user->email }}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-md-6">
                             <div class="panel panel-default">
                                 <div class="panel-body" style="padding: 0">

@@ -134,10 +134,9 @@ button{
 }
 
 .info-headings {
-    font-size: x-small;
+    font-size: xx-small;
     color: #949792;
 }
-
 
 #panel-profile {
     background-color: #0084B4 !important;
@@ -198,9 +197,9 @@ button{
     position: absolute;
     left: 37px;
     top: -50px;
-    width: 4px;
+    width: 3px;
     height: 60px;
-    background-color: #2487b6;
+    background-color: #5bb4e7;
     z-index: 1;
 }
 

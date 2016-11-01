@@ -1,0 +1,219 @@
+.navbar {
+    background-color: white !important;
+    position: relative;
+    padding-left: 5% !important;
+}
+
+.nav-pills, .navbar-header
+{
+    display: inline-block;
+}
+
+.search-form {
+    border-radius: 30px 0 0 30px !important;
+    background-color: #f5f8fa !important;
+    /*border-radius:Top-left, Top-right, Bottom-right, Bottom-left;*/
+}
+
+.search-btn {
+    border-radius: 0 30px 30px 0 !important;
+    background-color: #f5f8fa !important;
+    color: #66757f !important;
+    border: 1px solid #ccc !important;
+    border-left: hidden !important;
+    cursor:pointer;
+}
+
+#tweet_img {
+    position: absolute;
+    left: 50%;
+    top: 12px;
+}
+
+#tweet_img img{
+    width: 20px;
+    height: auto;
+}
+
+.default-buttons > * {
+    padding: 0;
+    border: none !important;
+    color: #66757f !important;
+}
+
+.default-buttons img {
+    width: 16px;
+    height: auto;
+}
+
+.homepage {
+    padding-top: 60px !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+}
+
+.tweet-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tweet-textbox {
+    width: 90%;
+}
+
+.profile-img-small img{
+    width: 30px;
+    height: auto;
+}
+
+#mid-panel-heading {
+    background-color: #e5f2f7 !important;
+}
+
+button{
+    width: auto;
+    height: auto;
+    background: none;
+    padding: 0;
+    border: none;
+}
+
+#tweet-buttons .optionals {
+    font-size: 20px;
+    color: #0084B4;
+}
+
+#tweet-buttons .optionals button {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#tweet-buttons {
+    display: none;
+    justify-content: space-between;
+}
+
+.panel-heading {
+    padding-bottom: 0 !important;
+}
+
+.name-surname, .email {
+    text-decoration: none;
+}
+
+.name-surname {
+    color: black;
+    font-weight: bold;
+}
+
+.email {
+    color: gray;
+}
+
+.tweet-footer {
+    margin-top: 10px;
+}
+
+.tweet-footer button{
+    margin-right: 20px;
+}
+
+.email:hover, .email:visited, .email:link, .email:active {
+    text-decoration: none;
+    color: gray;
+}
+
+.tweet-list {
+    display: flex !important;
+    justify-content: space-between;
+    position: relative;
+}
+
+.tweet-main {
+    width: 89%;
+}
+
+.info-headings {
+    font-size: x-small;
+    color: #949792;
+}
+
+
+#panel-profile {
+    background-color: #0084B4 !important;
+    height: 90px;
+}
+
+.counts {
+    color: #2989a4;
+    font-size: large;
+}
+
+.profile-info-panel {
+    padding-top: 0 !important;
+}
+
+#profile-info-name {
+    margin-left: 25%;
+    padding-bottom: 5px;
+}
+
+#profile-img {
+    width: 60px;
+    height: auto;
+    position: absolute;
+    padding: 5px;
+    margin: 60px 15px 15px;
+    background-color: #bcdfe8;
+    border: 2px solid #e4f9ff;
+    border-radius: 8px !important;
+}
+
+.panel-body-right {
+    font-size: x-small;
+    color: #8ba3a4;
+}
+
+.panel-footer-right {
+    font-size: small;
+    color: #2a88bd;
+}
+
+.tweet-footer {
+    color: #8ba3a4;
+}
+
+.tweet-list .profile-img-small {
+    align-self: center;
+    padding: 8px;
+    background-color: #bcdfe8;
+    border: 2px solid #e4f9ff;
+    border-radius: 8px;
+    margin-right: 10px;
+    position: relative;
+    z-index: 100;
+}
+
+.connect-line {
+    position: absolute;
+    left: 37px;
+    top: -50px;
+    width: 4px;
+    height: 60px;
+    background-color: #2487b6;
+    z-index: 1;
+}
+
+@media screen and (max-width: 992px) {
+    #tweet_img {
+        display: none;
+    }
+}
+
+#new-tweets-list-item {
+    display: none;
+}
+
+#new-tweets {
+    margin-left: 40%;
+}

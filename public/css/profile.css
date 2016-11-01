@@ -17,6 +17,11 @@
     max-height: 200px;
 }
 
+.profile-info-email {
+    font-size: small;
+    color: gray;
+}
+
 .profile-nav-bar {
     background-color: #ffffff;
     height: 60px;
@@ -34,12 +39,25 @@
     right: 10%;
 }
 
-.profile-page {
-    padding-top: 30px !important;
-}
-
 .follow-btn span {
     color: #2a88bd;
+}
+
+.profile-page {
+    padding-top: 30px !important;
+    margin-left: 8% !important;
+    margin-right: 8% !important;
+}
+
+#profile-info {
+    background-color: transparent;
+    border: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+}
+
+.profile-info-name {
+    font-weight: bold;
+    font-size: large;
 }
 
 .profile img.image-lg{
@@ -55,7 +73,7 @@
     z-index: 9;
     width: 15% !important;
     position: relative !important;
-    margin: 12% 10px 0 10% !important;
+    margin: 15% 10px 0 10% !important;
     border-radius: 20px !important;
 }
 

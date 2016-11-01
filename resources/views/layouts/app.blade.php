@@ -47,12 +47,14 @@
 
 
                 <ul class="nav nav-pills navbar-left" role="tablist">
-                    <li class="active" href="{{url('/')}}">
-                        <div class="default-buttons">
-                            <button type="submit" class="btn btn-default navbar-btn">
-                                <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-                                Home</button>
-                        </div>
+                    <li class="active" href="">
+                        <form method="get" action="{{ url('/') }}">
+                            <div class="default-buttons">
+                                <button type="submit" class="btn btn-default navbar-btn">
+                                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                                    Home</button>
+                            </div>
+                        </form>
                     </li>
                     <li class="active" href="#">
                         <div class="default-buttons">
@@ -70,12 +72,15 @@
                         </div>
                     </li>
 
-                    <li class="active" href="#">
-                        <div class="default-buttons">
-                            <button type="button" class="btn btn-default navbar-btn">
-                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                                Me</button>
-                        </div>
+
+                    <li class="active" href="">
+                        <form method="get" action="{{ url('users', Auth::user()->id) }}">
+                            <div class="default-buttons">
+                                <button type="submit" class="btn btn-default navbar-btn">
+                                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                                    Me</button>
+                            </div>
+                        </form>
                     </li>
                 </ul>
 

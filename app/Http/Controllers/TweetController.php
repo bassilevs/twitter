@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\DB;
 class TweetController extends Controller
 {
     public function get(Tweet $tweet) {
-        return view('/', compact('tweet', $tweet));
+        return view('tweetModal', compact('tweet', $tweet));
     }
 
     public function add(Request $request)

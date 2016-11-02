@@ -57,6 +57,10 @@
     justify-content: space-between;
 }
 
+.tweet-main .retweet-main {
+    margin-left: 60px;
+}
+
 .tweet-textbox {
     width: 90%;
 }
@@ -64,6 +68,20 @@
 .profile-img-small img{
     width: 30px;
     height: auto;
+}
+
+#profile-img-retweet {
+    width: 50px !important;
+    position: absolute;
+}
+
+.retweet-panel-body {
+    padding: 5px !important;
+}
+
+.retweet-panel {
+    margin-top: 5px;
+    margin-bottom: 5px !important;
 }
 
 #mid-panel-heading {
@@ -195,10 +213,10 @@ button{
 
 .connect-line {
     position: absolute;
-    left: 37px;
-    top: -50px;
+    left: 38px;
+    top: -60px;
     width: 3px;
-    height: 60px;
+    height: 80px;
     background-color: #5bb4e7;
     z-index: 1;
 }

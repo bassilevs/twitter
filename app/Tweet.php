@@ -3,6 +3,8 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
+use PDO;
 
 class Tweet extends Model
 {
@@ -24,4 +26,10 @@ class Tweet extends Model
         return $this->comments()->save($comment);
     }
 
+    public function getRetweet()
+    {
+        $tweet = Tweet::where('id', $this->retweet_id)->first();
+//        dd($tweet);
+        return $tweet;
+    }
 }
